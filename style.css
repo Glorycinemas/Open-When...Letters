@@ -1,7 +1,7 @@
 body {
-  font-family: 'Georgia', serif;
+  font-family: "ringift", serif;
   background: linear-gradient(to bottom, #5f97ff, #FFBC5C);
-  color: #333;
+  color: #000000;
   text-align: center;
   padding: 50px;
 
@@ -12,17 +12,15 @@ button {
   border: none;
   padding: 20px 20px;
   margin: 25px;
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
   border-radius: 8px;
-  font-style:oblique;
-  font-family: Caveat;
+  font-family: "bile", serif;
   align-content: center;
    transition: all 0,3s ease;
 }
 img{
   border-radius: 15px;
-  
 
 }
 img:hover{
@@ -68,6 +66,7 @@ img:hover{
   display: none;
   transition: all 0,3s ease;
   box-sizing: 100 ;
+  font-family: "bile", serif;
 }
 
 h3{
@@ -75,8 +74,8 @@ h3{
   font-size: 18px;
   cursor: pointer;
   border-radius: 8px;
-  font-style: italic;
-  font-family: Merriweather;
+  
+  font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
 
 } 
@@ -89,7 +88,7 @@ h3:hover
   transition:0.3s ;}
 
 h1{
-    font-family:merriweather;
+    font-family:'Times New Roman', Times, serif;
     font-size: 100px;
 }
 .scroll-container{
@@ -139,7 +138,7 @@ background-attachment: fixed;
 
 }
 
-.scroll-hint {
+.scroll-hint{
   position: absolute;
   bottom: 20px;
   left: 50%;
