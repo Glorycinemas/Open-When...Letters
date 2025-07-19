@@ -46,3 +46,16 @@ setInterval(() => {
   index = (index + 1) % hints.length;
   document.getElementById("scroll-hint").textContent = hints[index];
 }, 4000); // changes every 4 seconds
+
+window.addEventListener('scroll', function(){
+  if(window.scrollY> 2100){
+    document.body.classList.add("scrolled");}
+    else {document.body.classList.remove("scrolled");
+
+    }
+  }
+  
+
+)
+
+
